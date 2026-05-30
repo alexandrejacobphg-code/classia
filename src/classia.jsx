@@ -107,7 +107,6 @@ export default function Classia() {
             fields: {
               Prénom: form.prenom,
               Email: form.email,
-              Date: new Date().toISOString(),
             },
           }),
         }
