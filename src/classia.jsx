@@ -107,6 +107,7 @@ export default function Classia() {
             fields: {
               Prénom: form.prenom,
               Email: form.email,
+              Date: new Date().toISOString(),
             },
           }),
         }
@@ -197,7 +198,7 @@ export default function Classia() {
             }}
           >
             <div style={{ fontSize: "clamp(4rem, 12vw, 8rem)", fontFamily: "'DM Serif Display', Georgia, serif", fontWeight: 400, color: "#0f1412", lineHeight: 1, marginBottom: "1rem" }}>
-              <Counter target={87} inView={counterInView} />
+              <Counter target={285} inView={counterInView} />
             </div>
             <p style={{ fontSize: "clamp(1.1rem, 2.5vw, 1.4rem)", fontWeight: 300, color: "#5a5a54", margin: 0 }}>
               Grâce à vous, nous avons reçu plusieurs dizaines de réponses.
